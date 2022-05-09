@@ -1,9 +1,10 @@
 # stocks-analysis
+
 ## Overview of Project
-#### Background
+##### Background
 Steve wants to help his parents to analyze the entire stock markets over the last few years and find stocks to invest. 
 
-#### Purpose
+##### Purpose
 This project aims to refactor the code to execute the stock data for 2017 and 2018 in a much more efficient way and quicker execution time.
 
 ## Results: 
@@ -13,11 +14,11 @@ To evaluate the selected stocks (tickers) performance for 2017 and 2018, we are 
 
 The selected solar and energy stocks show a positive return except TERP in 2017.  The manufacturer and energy provider for stock ticker DQ, ENPH, FSLR and SEDG have raised over 100% return.  The other companies focused on solar power also increased over 20%.   Also, the total daily volume for each stock is all above 35 millions and most of them above 100 millions, which means they have plenty of liquidity. 
 
-![image](https://user-images.githubusercontent.com/103588178/167333367-462d7951-ccfc-4ac3-b67c-f2d37513cc32.png)
+![image](https://user-images.githubusercontent.com/103588178/167333580-b2d3471c-8f4f-4e0c-9430-820babaf75fb.png)
 
 In 2018, most selected stocks show negative returns except for a few (ENPH and RUN).  However, the total daily volumes are higher than in 2017.  Therefore, there is no issue with liquidity.  It is the slowdown of the global economy and the oversupply of energy supply.  
 
 ## Summary: 
 The refactored codes run time for 2017 is 0.87 and 2018 is 0.98, however, the original script ran for 2017 is 0.88 and 2018 is 0.87, the refactored codes have shown 10% more efficient run time.  
-#### Pros and Cons of refactoring codes
+##### Pros and Cons of refactoring codes
 The pros to refactoring the original VBA scripts to add in index and array to make the codes easier to understand and easier to scale when I continue working with this.  However,  when adding more for loops, it gets confused on the code and increases the risk of error.  
